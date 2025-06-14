@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusFlow - Pomodoro Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1>FocusFlow</h1>
+
+        <!-- Timer Section -->
+        <div class="timer-container">
+            <div class="timer-modes">
+                <button id="pomodoro-btn" class="mode-btn active">Pomodoro</button>
+                <button id="short-break-btn" class="mode-btn">Short Break</button>
+                <button id="long-break-btn" class="mode-btn">Long Break</button>
+            </div>
+            <div id="time-display">25:00</div>
+            <div class="timer-controls">
+                <button id="start-btn">START</button>
+                <button id="pause-btn" class="hidden">PAUSE</button>
+                <button id="reset-btn">RESET</button>
+            </div>
+        </div>
+
+        <!-- Task List Section -->
+        <div class="task-container">
+            <h2>Tasks for this Session</h2>
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Add a new task...">
+                <button type="submit">+</button>
+            </form>
+            <ul id="task-list">
+                <!-- Tasks will be added here by JavaScript -->
+            </ul>
+        </div>
+
+        <!-- Session Counter Section -->
+        <div class="counter-container">
+            <p>Sessions Completed: <span id="session-count">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
