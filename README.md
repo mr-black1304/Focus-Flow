@@ -2,7 +2,7 @@
 
 FocusFlow is a minimalist yet powerful Pomodoro-based planner designed to help you stay focused and manage your tasks effectively. By combining the Pomodoro Technique with a simple task list, FocusFlow provides a seamless workflow to boost your productivity.
 
-![FocusFlow Screenshot](placeholder.png) <!-- TODO: Replace with an actual screenshot -->
+![FocusFlow Screenshot](image.png) <!-- TODO: Replace with an actual screenshot -->
 
 ## ✨ Features
 
